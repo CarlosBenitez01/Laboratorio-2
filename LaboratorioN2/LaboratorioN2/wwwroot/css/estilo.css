@@ -1,0 +1,38 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    margin: auto;
+    max-width: 500px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.form__ico__cont {
+    font-size: 100px;
+    margin-left: 190px;
+}
+
+.form__label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form__input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: black solid 2px;
+    display:block;
+}
+
+.form__button {
+    width: 140px;
+    display: block;
+}
