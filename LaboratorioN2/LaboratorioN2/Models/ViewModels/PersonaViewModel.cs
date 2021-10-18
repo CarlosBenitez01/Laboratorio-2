@@ -16,7 +16,7 @@ namespace LaboratorioN2.Models.ViewModels
 
         [Display(Name = "Edad: ")]
         [Required(ErrorMessage = "Este campo es requerido")]
-        [Range(0, int.MaxValue,  ErrorMessage = "No valido")]
+        [Range(18, int.MaxValue,  ErrorMessage = "Debe ser mayor de edad")]
         
         public int EdadPersona { get; set; }
 
